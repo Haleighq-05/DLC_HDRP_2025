@@ -405,7 +405,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!199 &1406661731
 ParticleSystemRenderer:
   serializedVersion: 6
@@ -5276,6 +5276,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -6738394046461700857, guid: 3d6d3d90b51e9e04bbb3b8f45c61078c,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6f1fd3c996ad56b4595ae2697c6d3b62, type: 2}
     - target: {fileID: 919132149155446097, guid: 3d6d3d90b51e9e04bbb3b8f45c61078c,
         type: 3}
       propertyPath: m_Name
@@ -5284,7 +5289,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 3d6d3d90b51e9e04bbb3b8f45c61078c,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: 3d6d3d90b51e9e04bbb3b8f45c61078c,
         type: 3}
@@ -5628,6 +5633,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Campfire_mesh
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: aa852f4f05894bf4bb026e096e9fbe31,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
